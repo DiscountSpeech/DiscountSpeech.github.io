@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dwghp.ddns.net
+Token: 102166097bced025a27a59a7681c81d05a3bb707aab438a02c80b1c4069cbc7a

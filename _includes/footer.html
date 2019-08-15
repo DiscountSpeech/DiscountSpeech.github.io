@@ -1,0 +1,45 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Clearnet / Darknet Mirrors</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a class="u-email" href="https://dwghp.ddns.net/">Off-site</a> (hosted clearnet)</li>
+          <li><a class="u-email" href="http://dwblog.ddns.net/">On-site</a> (self-hosted clearnet)</li>
+          <li><a class="u-email" href="http://bithxedusrw236ji.onion/">onion</a> (Tor darknet)</li>
+          <li><a class="u-email" href="http://127.0.0.1:8888{{ site.freeurl }}/">freesite</a> (Freenet darknet)</li>
+          <li><a class="u-email" href="http://lggg5usmc5jrle6pxjb7zysnorlp6djzu7ne36geigbcigwfugma.b32.i2p/">eepsite (b32)</a> (I2P darknet)</li>
+          <!-- <li><a class="u-email" href="http://dwblog.i2p/">eepsite (i2p)</a> (I2P darknet)</li> -->
+          <!-- <li><a class="u-email" href="https://web.archive.org/web/2/https://dwghp.ddns.net/">Web-Archive</a> (of off-site host)</li> -->
+          <!-- <li><a class="u-email" href="https://web.archive.org/web/2/http://dwblog.ddns.net/">Web-Archive</a> (of on-site host)</li> -->
+          <!-- todo Tor2Web -->
+          <!-- onion.ws     - fast - 1.9k goog -->
+          <!-- onion.sh     - slow - 4.6k -->
+          <!-- onion.link   - slow - 73.4k (wa-ok) -->
+          <!-- i2p.xyz      - ???? - 16.4k (wa-ok) -->
+          <!-- Zeronet public proxy -->
+          <!-- https://www.zerogate.tk/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/ -->
+            <!-- https://zero.acelewis.com/ -->
+            <!-- https://www.zerogate.tk/kaffiene.bit -->
+          <!-- https://grez911.github.io/zeroproxy.html -->
+          <!-- Solid Server -->
+            <!-- https://solid.inrupt.com/docs/installing-running-nss -->
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
